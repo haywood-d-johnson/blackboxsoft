@@ -1,0 +1,24 @@
+.sl-circle {
+    color: var(--cream-can);
+    border: 3px solid var(--cream-can);
+    background-color: var(--honey-flower);
+    border-radius: 50%;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+
+.sl-circle:hover {
+    color: var(--honey-flower);
+    background-color: var(--cream-can);
+    border: 3px solid var(--honey-flower);
+}
+
+.social_link-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
