@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 
 .menu_bar-container {
@@ -38,7 +40,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 15px;
+    margin: 0 1rem;
 }
 
 nav ul li a {
@@ -52,4 +54,8 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--cream-can);
+}
+
+.social-links {
+    margin-left: 2rem;
 }

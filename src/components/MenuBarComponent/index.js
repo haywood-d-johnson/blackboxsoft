@@ -20,13 +20,19 @@ const MenuBar = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="#">About Us</a>
+                            <Link to="about" smooth duration={500}>
+                                About Us
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <Link to="services" smooth duration={500}>
+                                Services
+                            </Link>
                         </li>
                         <li>
-                            <a href="#">Contacts</a>
+                            <Link to="contact" smooth duration={500}>
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </nav>

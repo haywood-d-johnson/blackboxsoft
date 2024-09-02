@@ -1,0 +1,53 @@
+.aboutus-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aboutus-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.description {
+    font-weight: 300;
+}
+
+.contact-btn {
+    padding: 1rem;
+    width: 150px;
+    margin-top: 2rem;
+    border-radius: 25px;
+    background: var(--roman);
+    background: linear-gradient(90deg, var(--roman) 0%, var(--cream-can) 100%);
+    transition: background 0.3s, background 0.3s;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.contact-btn:hover {
+    background: var(--cream-can);
+    background: linear-gradient(90deg, var(--cream-can) 0%, var(--roman) 100%);
+}
+
+.offscreen_circle-container {
+    position: absolute;
+    border: 1px solid var(--honey-flower);
+    z-index: 1;
+    width: 800px;
+    height: 750px;
+    border-radius: 50%;
+    left: 60%;
+    background: rgb(252, 176, 69);
+    background: radial-gradient( circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(109, 30, 113, 1) 100%);
+}
