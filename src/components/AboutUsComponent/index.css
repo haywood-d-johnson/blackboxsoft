@@ -12,6 +12,7 @@
     height: 400px;
     flex-direction: column;
     padding: 5rem;
+    margin-left: 2rem;
 }
 
 .title {
@@ -42,12 +43,12 @@
 
 .offscreen_circle-container {
     position: absolute;
-    border: 1px solid var(--honey-flower);
+    border: 2px solid var(--honey-flower);
     z-index: 1;
     width: 800px;
     height: 750px;
     border-radius: 50%;
     left: 60%;
     background: rgb(252, 176, 69);
-    background: radial-gradient( circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(109, 30, 113, 1) 100%);
+    background: radial-gradient( circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 25%, rgba(109, 30, 113, 1) 100%);
 }

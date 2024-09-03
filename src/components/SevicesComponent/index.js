@@ -1,4 +1,7 @@
 import React from "react";
+import ServiceComponent from "./SingleServiceComponent";
+
+import "./index.css";
 
 const Services = () => {
     const ConsultingServicesList = [
@@ -57,7 +60,28 @@ const Services = () => {
 
     return (
         <section className="services">
-            <div className="services-container"></div>
+            <div className="services-container">
+                <h1 className="section_header">Our Services</h1>
+                <div class="consulting_service">
+                    <ServiceComponent
+                        header={"Consulting Services"}
+                        list={ConsultingServicesList}
+                    />
+                </div>
+                <div class="web_service">
+                    <ServiceComponent
+                        header={"Web Development Services"}
+                        list={WebDevelopmentServicesList}
+                    />
+                </div>
+                <div class="additional_service">
+                    <ServiceComponent
+                        header={"Additional Services"}
+                        list={AdditionalServicesList}
+                        className="additional_service"
+                    />
+                </div>
+            </div>
         </section>
     );
 };
