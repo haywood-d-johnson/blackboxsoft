@@ -16,7 +16,6 @@ const AboutUs = () => {
                 <button className="contact-btn" type="submit">
                     Contact Us
                 </button>
-                <div className="offscreen_circle-container"></div>
             </div>
         </section>
     );

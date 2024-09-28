@@ -1,0 +1,17 @@
+.list_rend-container {
+    padding: 1rem;
+}
+
+.list_item {
+    list-style: none;
+}
+
+.list_item_title {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: var(--cream-can);
+}
+
+.list_item_description {
+    margin-top: 0;
+}

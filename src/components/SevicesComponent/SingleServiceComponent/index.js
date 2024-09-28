@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./index.css";
+
 const ServiceComponent = ({ list, header }) => {
     return (
         <div className="list_rend-container">
