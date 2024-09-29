@@ -1,5 +1,9 @@
 .list_rend-container {
-    padding: 1rem;
+    padding: 2rem;
+    background-color: var(--shark);
+    border-radius: 5%;
+    margin: 0.5rem;
+    width: 600px;
 }
 
 .list_item {
@@ -10,8 +14,11 @@
     margin-bottom: 0;
     font-weight: 500;
     color: var(--cream-can);
+    display: flex;
+    align-items: center;
 }
 
 .list_item_description {
     margin-top: 0;
+    font-weight: 300;
 }

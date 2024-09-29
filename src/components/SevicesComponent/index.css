@@ -17,30 +17,15 @@
 .services-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .consulting_service {
     display: flex;
-    justify-content: flex-end;
-}
-
-.web_service {
-    width: 50%;
+    /* justify-content: flex-end; */
 }
 
 .additional_service {
     display: flex;
-    justify-content: flex-end;
-}
-
-.consulting_service>.list_rend-container {
-    width: 35%;
-}
-
-.web_service>.list_rend-container {
-    width: 50%;
-}
-
-.additional_service>.list_rend-container {
-    width: 50%;
+    /* justify-content: flex-end; */
 }

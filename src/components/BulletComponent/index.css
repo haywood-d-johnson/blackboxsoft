@@ -1,0 +1,10 @@
+.bullet-container {
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid rgba(109, 30, 113, 1);
+    width: 5px;
+    height: 5px;
+    margin-right: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}

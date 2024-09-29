@@ -40,6 +40,7 @@ const MenuBar = () => {
                     <SocialLinks />
                 </div>
             </div>
+            <div className="offscreen_circle_tl-container"></div>
         </div>
     );
 };
