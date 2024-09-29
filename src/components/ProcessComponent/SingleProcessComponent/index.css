@@ -1,0 +1,21 @@
+.process_container {
+    width: 300px;
+    height: 150px;
+    background-color: var(--shark);
+    padding: 2rem;
+    border-radius: 15%;
+}
+
+.process_idx {
+    color: var(--cream-can);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.process_header {
+    font-size: 1.25em;
+}
+
+.process_description {
+    font-weight: 300;
+}

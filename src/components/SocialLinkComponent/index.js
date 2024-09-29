@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 import "./index.css";
-import { height } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 <FontAwesomeIcon icon="fa-brands fa-facebook-f" />;
 

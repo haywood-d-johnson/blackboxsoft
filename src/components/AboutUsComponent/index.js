@@ -9,7 +9,7 @@ const AboutUs = () => {
         "BlackBox Soft offers customized technology roadmaps aligned with your business goals.";
 
     return (
-        <section className="aboutus-section">
+        <section className="aboutus">
             <div className="aboutus-container">
                 <h1 className="title">{AboutUsTitle}</h1>
                 <h3 className="description">{AboutUsh3}</h3>

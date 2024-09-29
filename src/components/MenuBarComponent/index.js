@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Link } from "react-scroll";
 import SocialLinks from "../SocialLinkComponent";
 
 import "./index.css";
+import NavLink from "./NavLinkComponent";
 
 const MenuBar = () => {
     return (
@@ -17,30 +17,14 @@ const MenuBar = () => {
                     />
                     <div className="logo_name">BlackBox Soft</div>
                 </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="about" smooth duration={500}>
-                                About Us
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="services" smooth duration={500}>
-                                Services
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="contact" smooth duration={500}>
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
+                <NavLink/>
                 <div className="social-links">
                     <SocialLinks />
                 </div>
             </div>
-            <div className="offscreen_circle_tl-container"></div>
+            <div className="offscreen_circle_tr-container"></div>
+            <div className="offscreen_circle_ml-container"></div>
+            <div className="offscreen_circle_br-container"></div>
         </div>
     );
 };
