@@ -63,3 +63,19 @@ a {
     justify-content: flex-end;
     margin: 1rem;
 }
+
+
+@media (max-width: 786px) {
+    .contact_container {
+        flex-direction: column;
+    }
+
+    .right-container {
+        display: block;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+}

@@ -5,6 +5,7 @@ import AboutUs from "./components/AboutUsComponent";
 import Services from "./components/SevicesComponent";
 import Process from "./components/ProcessComponent";
 import Contact from "./components/ContactComponent";
+import SmallVPNav from "./components/SmallViewportNavComponent";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Process />
             <Services />
             <Contact />
+            <SmallVPNav/>
         </div>
     );
 }
