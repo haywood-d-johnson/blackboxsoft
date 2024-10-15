@@ -73,8 +73,7 @@ a {
     .right-container {
         position: fixed;
         bottom: 0;
-        right: 0;
-        width: 100px;
+        right: -10px;
     }
     .left-container {
         justify-content: center;
