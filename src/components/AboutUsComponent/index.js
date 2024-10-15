@@ -11,8 +11,8 @@ const AboutUs = () => {
     return (
         <section className="aboutus">
             <div className="aboutus-container">
-                <h1 className="title">{AboutUsTitle}</h1>
-                <h3 className="description">{AboutUsh3}</h3>
+                <h1 className="aboutus-title">{AboutUsTitle}</h1>
+                <h3 className="aboutus-description">{AboutUsh3}</h3>
                 <button className="contact-btn" type="submit">
                     Contact Us
                 </button>

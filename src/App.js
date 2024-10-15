@@ -11,11 +11,11 @@ function App() {
     return (
         <div className="App">
             <MenuBar />
-            <Bubble />
             <AboutUs />
             <Process />
             <Services />
             <Contact />
+            <Bubble />
         </div>
     );
 }
