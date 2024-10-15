@@ -1,0 +1,41 @@
+.bubble-container {
+    width:100vw;
+}
+
+.offscreen_circle_tr-container {
+    position: fixed;
+    border: 2px solid var(--honey-flower);
+    z-index: 0;
+    width: 800px;
+    height: 750px;
+    border-radius: 50%;
+    left: 60%;
+    background: radial-gradient( circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 25%, rgba(109, 30, 113, 1) 100%);
+    transform: translateX(0vw);
+}
+
+.offscreen_circle_ml-container {
+    position: fixed;
+    border: 5px solid var(--honey-flower);
+    z-index: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    left: -15%;
+    bottom: 50%;
+    background: radial-gradient( circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 25%, rgba(109, 30, 113, 1) 100%);
+    transform: translateX(0vw);
+}
+
+.offscreen_circle_br-container {
+    position: fixed;
+    border: 1px solid var(--honey-flower);
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    right: 50%;
+    bottom: 10%;
+    background: radial-gradient( circle, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 25%, rgba(109, 30, 113, 1) 100%);
+    transform: translateX(0vw);
+}

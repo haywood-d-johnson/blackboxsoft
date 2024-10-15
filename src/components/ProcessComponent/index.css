@@ -8,10 +8,9 @@
 }
 
 .process_main_header {
-    background-image: linear-gradient(to right, var(--roman), var(--cream-can));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
     font-size: 1.5em;
+    z-index: 9;
 }
 
 .process_main-container {

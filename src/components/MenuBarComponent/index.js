@@ -17,14 +17,13 @@ const MenuBar = () => {
                     />
                     <div className="logo_name">BlackBox Soft</div>
                 </div>
-                <NavLink/>
-                <div className="social-links">
-                    <SocialLinks />
+                <div className="nav-social_container">
+                    <NavLink/>
+                    <div className="social-links">
+                        <SocialLinks />
+                    </div>
                 </div>
             </div>
-            <div className="offscreen_circle_tr-container"></div>
-            <div className="offscreen_circle_ml-container"></div>
-            <div className="offscreen_circle_br-container"></div>
         </div>
     );
 };
