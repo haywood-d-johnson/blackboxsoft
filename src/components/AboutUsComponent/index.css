@@ -46,5 +46,6 @@
 @media (max-width: 768px) {
     .aboutus-container {
         padding: 1rem;
+        margin: 0;
     }
 }

@@ -20,10 +20,27 @@
 
 .consulting_service {
     display: flex;
-    /* justify-content: flex-end; */
 }
 
 .additional_service {
     display: flex;
-    /* justify-content: flex-end; */
+}
+
+@media (max-width: 768px) {
+    .services {
+        margin: 0;
+    }
+    .consulting_service {
+        width: 90%;
+    }
+    .web_service {
+        display: flex;
+        width: 90%;
+    }
+    .additional_service {
+        width: 90%;
+    }
+    .list_rend-container {
+        width: 90%;
+    }
 }

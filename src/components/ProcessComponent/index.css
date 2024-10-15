@@ -5,18 +5,19 @@
     align-items: center;
     flex-direction: column;
     margin: 2rem;
-    z-index: 6;
+    position: relative;
+    z-index: 1;
 }
 
 .process_main_header {
     color: white;
     font-size: 1.5em;
-    z-index: 9;
+    z-index: inherit;
 }
 
 .process_main-container {
     position: relative;
-    z-index: 10;
+    z-index: inherit;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -25,7 +26,6 @@
 @media (max-width: 768px) {
     .process {
         margin: 0;
-        padding: 1rem;
     }
     .process_main-container {
         display: flex;
